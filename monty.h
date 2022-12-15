@@ -59,6 +59,7 @@ void f_stack(stack_t **head, unsigned int counter);
 void f_pint(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
+bus_t bus = {NULL, NULL, NULL, 0};
 
-int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
+int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
 #endif
